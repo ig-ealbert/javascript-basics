@@ -5,7 +5,7 @@
 
 Arrays hold multiple data items.  They can be thought of as lists (in non-technical terms), queues (first in, first out), or stacks (first in, last out).  Items in an array have an index, which represents its position in the array.  Indices are 0 based, which means they start from 0 and end at 1 less than the length of the array.  As such, it is easy to get the value of any item in an array given its index.  For example, given `var myArray = [1, 2, 3, 4, 5, 6];`, `myArray[3]` would return `4`, as the indices are 0, 1, 2, 3, 4, and 5.
 
-A matrix is a two dimensional array.  It's an array of arrays!  Ex. `[[1, 2], [3, 4], [5, 6]]`.  Here you could access an element with two indices, like `myMatrix[0][1]`, which returns `1`.
+A matrix is a two dimensional array.  It's an array of arrays!  Ex. `[[1, 2], [3, 4], [5, 6]]`.  Here you could access an element with two indices, like `myMatrix[0][1]`, which returns `2`.
 
 In this walkthrough, you will create an image viewer using an array of image names.  The left and right buttons will change the image displayed.
 
