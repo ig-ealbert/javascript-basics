@@ -4,15 +4,20 @@
 
 This repository contains a set of walkthroughs about basic programming concepts using JavaScript.  They are meant for beginners with no programming experience.
 
-Each walkthrough will have a markdown (.md) file, a predefined .html file, and a blank .js file.  The markdown file will explain what is set up in the .html file, as well as the concepts and the steps to complete the learning exercise.  The .js file will be where any code is added.
+There are two sets of lessons.
+  * `js2017` - This uses client-side JavaScript in the web browser to update an .html file.  Each lesson folder contains a markdown (.md) file, a predefined .html file, and a blank .js file.  The markdown file will explain what is set up in the .html file, as well as the concepts and the steps to complete the learning exercise.  The .js file will be where any code is added.  I wrote these lessons in 2017 and do not intend to update them.
+  * `js2021` - This is simply a set of .md files.  The code provided can be run in one of 3 simple ways.
+     - Use an online sandbox like [jsfiddle](https://jsfiddle.net/)
+     - Press F12 with Chrome or another modern browser open and use the Console there
+     - Write a local .js file with [node.js](https://nodejs.org/en/) installed and run it with `node path/to/file.js`
 
 ## Prerequisites
 
 Some basic knowledge of HTML would be helpful, but is not required.
 
-The only requirements are a text editor and a modern browser.  I use Notepad++ for my text editor, and Chrome as my browser.
+The only requirements are a text editor and a modern browser.  I previously used Notepad++ for my text editor, but now I am using Visual Studio Code.  I use Chrome as my browser.
 
-## Contents
+## Contents - 2017 Version
 
 1. **Getting Started With JavaScript** - Get familiar with the provided files, and write your first line of JavaScript.  Create a webpage that displays a "hello world" message.
 
@@ -27,6 +32,12 @@ The only requirements are a text editor and a modern browser.  I use Notepad++ f
 6. **Arrays** - Learn about arrays.  Create a website that displays pictures of cats.
 
 7. **Objects** - Learn how to model custom data as objects.  Create a website that displays information about different Pokemon.
+
+## Contents - 2021 Version
+
+**Under Construction** :construction:
+
+1. **Variables** - Learn the different types of data and how to work with them.
 
 ## Recommended Reference Material
 
