@@ -103,7 +103,7 @@ const num2 = 2;
 console.log(num1 + num2);
 // prints out 5
 
-console.log(`${num1} * ${num2} = ${num1 * num2});
+console.log(`${num1} * ${num2} = ${num1 * num2}`);
 // prints out 3 * 2  = 6
 ```
 
@@ -130,7 +130,7 @@ if (cost < 5) {
 }
 
 let isOriginalCost = cost === 4; // === checks for equality
-let isNefedCost = !isOriginalCost; // ! means "not"
+let isNerfedCost = !isOriginalCost; // ! means "not"
 ```
 
 ## Arrays
