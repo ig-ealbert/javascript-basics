@@ -38,6 +38,7 @@ The only requirements are a text editor and a modern browser.  I previously used
 **Under Construction** :construction:
 
 1. **Variables** - Learn the different types of data and how to work with them.
+2. **Control Flow** - Learn how to choose a path based on a condition.
 
 ## Recommended Reference Material
 
