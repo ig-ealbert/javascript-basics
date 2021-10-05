@@ -85,5 +85,5 @@ Here we covered how to use `if` statements with optional `else if` and `else` cl
 
 If you'd like to practice using `if` statements, try implementing these scenarios.
 
-1. Set two numbers as variables and compare them.  Ouput the result of the comparison.
+1. Set two numbers as variables and compare them.  Output the result of the comparison.
 2. Write a program to comment on someone's preferred programming language.
