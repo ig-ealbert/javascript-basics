@@ -51,7 +51,7 @@ You can use logical operators to determine if a condition is true or false.
 | >         | Greater than.  Example: `3 > 2` (true).              |
 | >=        | Greater than or equal to.  Example: `3 >= 3` (true). |
 | &&        | And.  Example: `3 > 2 && 3 < 5` (true).              |
-| \|\|      | Or.  Example: `3 > 5 || 3 < 2` (false).              |
+| \|\|      | Or.  Example: `3 > 5 \|\| 3 < 2` (false).              |
 | !         | Not.  Example: `1 !== 2` (true).                     |
 
 ## Switch Statements
