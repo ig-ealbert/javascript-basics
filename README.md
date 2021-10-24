@@ -40,6 +40,7 @@ The only requirements are a text editor and a modern browser.  I previously used
 1. **Variables** - Learn the different types of data and how to work with them.
 2. **Control Flow** - Learn how to choose a path based on a condition.
 3. **Loops** - Learn how to repeat code without copying and pasting it.
+4. **Functions** - Learn how to group code into a reusable and customizable block.
 
 ## Recommended Reference Material
 
