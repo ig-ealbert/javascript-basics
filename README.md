@@ -42,6 +42,7 @@ The only requirements are a text editor and a modern browser.  I previously used
 3. **Loops** - Learn how to repeat code without copying and pasting it.
 4. **Functions** - Learn how to group code into a reusable and customizable block.
 5. **Client Side** - How does JavaScript interact with the browser?
+6. **Server Side** - What extra things can you do in JavaScript outside of the browser?
 
 ## Recommended Reference Material
 
