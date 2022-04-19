@@ -8,6 +8,14 @@ JavaScript can also be used for programs outside of the browser.  `node.js` is t
 
 Server-side JavaScript allows you to organize and share your code between files.  This is done by using modules, which is a fancy name for code split into different files.  You can then import and export your functions and variables for use in other files.
 
+There are two ways to do this.
+
+### Import and Export
+
+You can use a library like [`CommonJS`](https://en.wikipedia.org/wiki/CommonJS) which allows for using `import` and `export`.
+
+You can also change the file extension of your `.js` files to `.mjs` to explicitly make them modules.  This will also allow you to use `import` and `export`.
+
 ```js
 // file1.js
 
@@ -33,6 +41,25 @@ function shareMe() {
 
 shareMe();
 myShareMe();
+```
+
+### Require
+
+You can also use `require`, which is built into node.js.  When using this method, you must have a `module.exports` line in your file to explain what gets exported.
+
+```js
+// file1.js
+
+function shareMe() {
+    console.log("I am being shared!");
+}
+
+module.exports = shareMe;
+
+// file2.js
+shareMe = require("./file1");
+
+shareMe();
 ```
 
 ## Libraries
